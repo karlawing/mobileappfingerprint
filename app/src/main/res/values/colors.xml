@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#101a26</color>
+    <color name="colorPrimaryDark">#090909</color>
+    <color name="colorPrimaryLight">#000000</color>
+    <color name="colorAccent">#bfc9ff</color>
+    <color name="colorPrimaryText">#000000</color>
+    <color name="colorSecondaryText">#727272</color>
+    <color name="colorIcons">#ffffff</color>
+    <color name="colorWhite">#191969</color>
+    <color name="colorDivider">#b6b6b6</color>
+
+    <color name="whitemoto">#ffff</color>
+
+    <color name="dark">#222222</color>
+    <color name="light">#eeeeee</color>
+</resources>

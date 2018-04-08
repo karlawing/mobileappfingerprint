@@ -1,0 +1,175 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="ph.edu.ust.iicscloudauthenticator.ProfileFragment"
+    android:background="@drawable/loginbg">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#f44336"
+            android:id="@+id/circleImageView"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="80dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUser"
+            android:paddingTop="20dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:paddingBottom="10dp"
+            android:textColor="@color/colorIcons" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvMsg2"
+            android:paddingTop="5dp"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:textSize="15sp"
+            android:textAlignment="center"
+            android:paddingBottom="5dp"
+            android:elevation="1dp"
+            android:text="myuste.ust.edu.ph"
+            android:textColor="#FFFF"
+            android:fontFamily="sans-serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView android:src="@drawable/birthday"
+                android:layout_width="35dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/imageView"
+                android:paddingBottom="22dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:paddingTop="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:elevation="1dp" />
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="53dp"
+                android:id="@+id/tvBday"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFF"
+                android:layout_marginTop="5dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView android:src="@drawable/address"
+                android:layout_width="35dp"
+                android:layout_height="53dp"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/imageView2"
+                android:paddingBottom="22dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginStart="13dp"
+                android:paddingTop="10dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="317dp"
+                android:layout_height="53dp"
+                android:id="@+id/tvAdd"
+                android:paddingBottom="10dp"
+                android:textSize="18sp"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@+id/imageView"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:textColor="#FFFF" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnEleap"
+                android:text="Visit Eleap"
+                android:layout_marginLeft="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textSize="13sp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:fontFamily="sans-serif" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/btnLogout"
+                android:text="Logout"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:fontFamily="sans-serif" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

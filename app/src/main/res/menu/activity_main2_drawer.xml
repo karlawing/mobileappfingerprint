@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_instructions"
+            android:icon="@drawable/ic_insert_comment_black_24dp"
+            android:title="Instructions"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nav_prof"
+            android:icon="@drawable/ic_account_circle_black_24dp"
+            android:title="Profile"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nav_code"
+            android:icon="@drawable/ic_fiber_pin_black_24dp"
+            android:title="Passcode"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/nav_supp"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Support" />
+        <item
+            android:id="@+id/nav_so"
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:title="Sign Out" />
+    </group>
+
+</menu>
